@@ -1,4 +1,17 @@
 // app/dashboard/lib/data.ts
+
+export const fetcher = (url: string) => fetch(url).then((res) => res.json());
+
+export const API_ENDPOINTS: Record<string, string> = {
+    medicines: '/api/medicines',
+    customers: '/api/customers',
+    expenses: '/api/expenses',
+    suppliers: '/api/suppliers',
+    sales: "/api/sales",
+    settings: "/api/settings",
+    notifications: "/api/notifications",
+};
+
 export const statCards = [
     { id: 1, title: "Today Sales", value: "$1,240", trend: "+12.5%", color: "cyan" },
     { id: 2, title: "Total Inventory", value: "842 Items", trend: "0.2%", color: "blue" },

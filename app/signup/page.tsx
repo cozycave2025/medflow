@@ -138,7 +138,7 @@ export default function Signup() {
                         </div>
                     </div>
                     <h1 className="bg-gradient-to-r from-blue-100 to-teal-100 bg-clip-text text-3xl font-bold tracking-tight text-transparent">
-                        Let's get started
+                        Let&apos;s get started
                     </h1>
                     <p className="mt-2 text-slate-400">
                         Create your MedFlow account today
